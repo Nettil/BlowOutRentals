@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block About %}
+<!DOCTYPE html>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">What is Nexabyte Studios?</h1>
+<br>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5"> </h2>
+            <a class="btn btn-primary js-scroll-trigger" href="#about"> Tell Me More</a>
+        </div>
+    </div>
+</header>
+<!-- About-->
+<section class="about-section text-center" id="about">
+
+        <!-- About-->
+<div class="container">
+    <div class="text-center">
+        <h2 class="section-heading text-uppercase"></h2>
+    </div>
+    <ul class="timeline">
+        <li>
+            <!-- Edited img source to load static-->
+            <div class="timeline-image"><img class="rounded-circle img-fluid"src="{% static 'img/about/42096.jpg' %}"  width="600" height="600" alt="" /></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <br>
+                                       <h4 class="subheading">This Is Where Worlds Are Made! </h4>
+                </div>
+                <div class="timeline-body"><p class="text-muted"><b><i>NexaByte Interactive</i></b> is a small indie game studio that creates story driven games for various genres including Roguelites, Dungeon crawlers, Action RPGs, Action-adventures, and more! We focus on creating engaging worlds and stories rendered in classic 16 bit graphics reminiscent of older titles such as The Legend of Zelda, Golden Sun, Secret of Mana, Ultima Underworld, and Hexen, while incorporating more modern mechanics from newer titles such as Caveblazers, Barony. Wizard of Legend, Noita, and many other modern influences. Here at Nexabyte Studios, we want every game to invoke a nostalgic sense of exploration and anticipation for the next discovery. We hope you're ready for the next Byte! </p>
+                    <a href="https://www.freepik.com/vectors/business">Business vector created by macrovector - www.freepik.com</a>
+
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+    </div>
+</section>
+{% endblock About %}
+
